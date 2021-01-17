@@ -250,3 +250,50 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { /* Chrome
     color: #ffffff;
     font-size: 18px;
   }
+  section.contact .contact_form input[type="submit"] {
+    display: inline-block;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #30bae7;
+    height: 65px;
+    line-height: 65px;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    border-radius: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-bottom: 4px solid #299ec5;      
+  }
+  section.contact .contact_form input[type="submit"]:hover{
+      transition: background 300ms easy-in-out;
+      background: #299ec5;
+  }
+  .footer_social {
+      font-size: 24px;
+      letter-spacing: 0.02em;
+      font-weight: 600;
+      color: #ffffff;
+
+  }
+footer.footer {
+      background: #344b8e;
+   }
+  .footer_social ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 110px;
+      margin: 0;
+  }
+  footer.footer a {
+      text-decoration: none;
+      color: inherit;
+  }
+  footer.footer a:hover {
+      color: #30bae7;
+  }
+
+
